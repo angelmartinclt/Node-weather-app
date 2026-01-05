@@ -1,22 +1,29 @@
-
+/* dark green #6b705c */
+/* dark gray #333333*/
+/* beige #ddbea9*/
+/* light green #a5ad8d*/
+/* */
 body{
-    color: #333333;
-    font-family: arial;
+    background-color: #6b705c;
+    /* color: #333333; */
+    font-family: cursive;
     max-width: 650px;
     margin: 0 auto;
     padding: 0 16px;
-
+    font-size: 25px;
     display: flex ;
     flex-direction: column;
     min-height: 100vh;
+    text-align: center;
+    align-items: center;
 }
 
 .main-content{
     flex-grow: 1;
 }
 
-footer{
-    color: #888888;
+footer {
+    /* color: #a5ad8d; */
     border-top: 1px solid #eeeeee;
     margin-top: 16px;
     padding: 16px 0;
@@ -25,16 +32,31 @@ footer{
 header{
     margin-top: 16px;
     margin-bottom: 48px;
+    
+}
+
+p{
+    color: #333333;
 }
 
 h1 {
     font-size: 64px;
-    margin-bottom: 16px;}
+    margin-bottom: 16px;
+    color: #ddbea9;
+    
+font-family:monospace;}
 
 header a{ 
-    color: #888888;
+    color: #a5ad8d;
     margin-right: 16px;
-    text-decoration: none;}
+    text-decoration: none;
+    }
+
+header a:hover{
+    background-color: #ddbea9;
+    border-radius: 12px;
+    color: #333333;
+}
 
 /* .portrait{
     width: 250px;} */
@@ -44,20 +66,35 @@ header a{
     }
 
     input{
-        border: 1px solid #cccccc;
+        border: 2px solid #a5ad8d;
         padding: 8px;
+        background-color: #ddbea9;
+        height: 12px;
+        width: 300px;
+        border-radius: 12px;
     }
 
     button{
         cursor: pointer;
         border: 1px solid #888888;
-        background: #888888;
+        background: #a5ad8d;
         color: white;
         padding: 8px;
+        border-radius: 12px;
+        /* height: 12px; */
+        width: 150px;
     }
 
 
-    form div{
+    form label{
         cursor: pointer;
-        margin: 10px 0;
+        /* margin: 10px 0; */
+    }
+
+    form div{
+        margin: 10px 0 ;
+        /* width: 10px; */
+        display: flex;
+        flex-direction: row;
+        color: #333333;
     }

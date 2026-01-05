@@ -30,13 +30,14 @@ app.get('/', (req, res) => {
 app.get('/about', (req, res) => {
     res.render('about', {
         title: 'About Me',
-        name: 'Angel Martin'
+        name: 'Angel Martin',
+        aboutText: 'My name is Angel Martin and I am a coding apprentice building my technical skills. The creation of this weather application was a code along with Andrew Mead from the course "Learn Node.js". '
     })
 })
 
 app.get('/help', (req, res) =>{
     res.render('help', {
-        helpText: 'This is some helpful text.',
+        helpText: 'After typing a location on the weather page the application will provde the following data: daily weather condition, current temperature, feels like temperature and the chance of rain in desired location ',
         title: 'Help',
         name: 'Angel Martin'
     })
