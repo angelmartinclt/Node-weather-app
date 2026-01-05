@@ -1,0 +1,1 @@
+This is a weather application built using node and express. Users can type "node web-server/src/app.js" into the terminal to open the weather application on the browser. 
